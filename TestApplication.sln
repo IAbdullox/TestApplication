@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8113D40F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "src\API\API.csproj", "{5D9A5F24-D59B-45EB-AEA8-E88B4B74CE4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "src\DataAccess\DataAccess.csproj", "{1D51D574-DB6D-4EDD-8386-055A29490A33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "tests\Shared\Shared.csproj", "{B4C323D6-8838-4517-882D-B24D0EF35712}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +23,21 @@ Global
 		{5D9A5F24-D59B-45EB-AEA8-E88B4B74CE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D9A5F24-D59B-45EB-AEA8-E88B4B74CE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D9A5F24-D59B-45EB-AEA8-E88B4B74CE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D51D574-DB6D-4EDD-8386-055A29490A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D51D574-DB6D-4EDD-8386-055A29490A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D51D574-DB6D-4EDD-8386-055A29490A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D51D574-DB6D-4EDD-8386-055A29490A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C323D6-8838-4517-882D-B24D0EF35712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C323D6-8838-4517-882D-B24D0EF35712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C323D6-8838-4517-882D-B24D0EF35712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C323D6-8838-4517-882D-B24D0EF35712}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5D9A5F24-D59B-45EB-AEA8-E88B4B74CE4B} = {18410FA0-A107-42D8-856E-DBA362AFDD09}
+		{1D51D574-DB6D-4EDD-8386-055A29490A33} = {18410FA0-A107-42D8-856E-DBA362AFDD09}
+		{B4C323D6-8838-4517-882D-B24D0EF35712} = {8113D40F-CE8C-4509-BB46-12C49A656FF1}
 	EndGlobalSection
 EndGlobal
