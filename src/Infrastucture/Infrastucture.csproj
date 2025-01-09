@@ -21,4 +21,9 @@
     <ProjectReference Include="..\Core\Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repository\Imp\" />
+    <Folder Include="Repository\Interface\" />
+  </ItemGroup>
+
 </Project>
